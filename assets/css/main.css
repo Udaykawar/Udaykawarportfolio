@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    scroll-behavior: smooth;
+    --body-color:#0f172a;
+    --theme-avtar-size:45px;
+    
+}
+body{
+    background-color: var(--body-color);
+}
+h1{
+    color:#fff;
+}
+.container-fluid {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.navbar{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.navbar.mb-5{
+    
+        margin-bottom: 7rem!important;
+    
+}
+.nav-item {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link.active {
+    color: #fff;
+    font-size: 1rem;
+}
+.avtar img, .btn-icon{
+    width: var(--theme-avtar-size);
+    height: var(--theme-avtar-size);
+}
+.brand.fs-6 {
+    font-size: 1.15rem!important;
+}
+.subtitle{
+    color: #94a3b8;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    font-size: .875em;
+}
+.display-1 {
+   
+    font-weight: 800;
+    line-height: 1.3;
+}
+p.content {
+    color: #fff;
+    font-size: 1.5em;
+    
+}
