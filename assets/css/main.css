@@ -68,3 +68,11 @@ p.content {
     font-size: 1.5em;
     
 }
+span.outline.hover {
+    color: var(--body-color);
+    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
+}
+.outline.hover:hover {
+    color: #6ee7b7;
+    text-shadow: none;
+}
